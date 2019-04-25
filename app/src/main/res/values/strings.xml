@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">4001-Health&amp;Happy</string>
+    <string name="app_name">Health&amp;Happy</string>
+    <string name="health_happy"><![CDATA[Health&Happy]]></string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login">LOGIN</string>
+    <string name="logo">logo</string>
+    <string name="welcome">welcome</string>
+    <string name="title_activity_home">Home</string>
+    <string name="create_new_account">create a new account</string>
+    <string name="menu">Menu</string>
+    <string name="workout">Workout</string>
+    <string name="diet">Diet</string>
+    <string name="logout">Logout</string>
+
+
 </resources>
