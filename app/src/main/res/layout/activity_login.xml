@@ -8,7 +8,7 @@
     android:hapticFeedbackEnabled="true"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".Program.Login">
+    tools:context=".Login">
 
     <ImageView
         android:id="@+id/logo"

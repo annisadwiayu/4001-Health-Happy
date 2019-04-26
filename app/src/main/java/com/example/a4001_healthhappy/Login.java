@@ -1,4 +1,4 @@
-package com.example.a4001_healthhappy.Program;
+package com.example.a4001_healthhappy;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -10,10 +10,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.a4001_healthhappy.R;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -112,7 +112,7 @@ public class Login extends AppCompatActivity {
                                     finish();
                                     Log.d(TAG, "signInWithEmail:success");
                                     Toast.makeText(Login.this,"Anda Berhasil Log In Menggunakan Email", Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(Login.this, Home.class);
+                                    Intent intent = new Intent(Login.this, Login.class);
                                     startActivity(intent);
                                 } else {
                                     Log.d(TAG, "singInWithEmail:Fail");
@@ -174,7 +174,7 @@ public class Login extends AppCompatActivity {
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             Toast.makeText(Login.this,"Anda Berhasil Log In Menggunakan Google", Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(Login.this, Home.class);
+                            Intent intent = new Intent(Login.this, Login.class);
                             startActivity(intent);
 //                            updateUI(user);
                         } else {

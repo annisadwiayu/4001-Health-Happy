@@ -1,4 +1,4 @@
-package com.example.a4001_healthhappy.Program;
+package com.example.a4001_healthhappy;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -14,7 +14,6 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.a4001_healthhappy.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
