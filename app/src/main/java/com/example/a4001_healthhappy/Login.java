@@ -112,7 +112,7 @@ public class Login extends AppCompatActivity {
                                     finish();
                                     Log.d(TAG, "signInWithEmail:success");
                                     Toast.makeText(Login.this,"Anda Berhasil Log In Menggunakan Email", Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(Login.this, Home.class);
+                                    Intent intent = new Intent(Login.this, Login.class);
                                     startActivity(intent);
                                 } else {
                                     Log.d(TAG, "singInWithEmail:Fail");
@@ -174,7 +174,7 @@ public class Login extends AppCompatActivity {
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             Toast.makeText(Login.this,"Anda Berhasil Log In Menggunakan Google", Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(Login.this, Home.class);
+                            Intent intent = new Intent(Login.this, Login.class);
                             startActivity(intent);
 //                            updateUI(user);
                         } else {
