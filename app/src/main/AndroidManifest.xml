@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Program.SplashScreen"></activity>
+        <activity android:name=".Diet.DietOcd"></activity>
+        <activity android:name=".Diet.DietMayo" />
+        <activity android:name=".Diet.DietKeto" />
         <activity android:name=".Program.HalamanWorkout" />
         <activity android:name=".Login" />
         <activity android:name=".Register" />

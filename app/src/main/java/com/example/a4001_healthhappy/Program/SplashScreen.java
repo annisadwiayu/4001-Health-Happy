@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.WindowManager;
 
+import com.example.a4001_healthhappy.Login;
 import com.example.a4001_healthhappy.R;
 
 public class SplashScreen extends AppCompatActivity {
