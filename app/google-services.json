@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "185930686986",
+    "firebase_url": "https://healthhappy-cf0c8.firebaseio.com",
+    "project_id": "healthhappy-cf0c8",
+    "storage_bucket": "healthhappy-cf0c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185930686986:android:92ccfb321d160e80",
+        "android_client_info": {
+          "package_name": "com.example.a4001_healthhappy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185930686986-9mnp4qbatd0gcu967f4ugo1e56n9ci5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a4001_healthhappy",
+            "certificate_hash": "c364722b2f4a1a5622e207017d82e1e228b59dd5"
+          }
+        },
+        {
+          "client_id": "185930686986-fkd86spn3g9l2jbqfkklsfg790lk67m5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGXXiU5AhgJVn9ltG3m-DTdBRkcY30LNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185930686986-fkd86spn3g9l2jbqfkklsfg790lk67m5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
