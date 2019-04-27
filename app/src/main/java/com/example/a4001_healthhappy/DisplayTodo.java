@@ -42,6 +42,37 @@ public class DisplayTodo extends AppCompatActivity {
         cvTodo = (CardView) findViewById(R.id.cardTodo);
         btnDel = (Button) findViewById(R.id.delTodo);
 
+        rvTodo.setLayoutManager(new LinearLayoutManager(DisplayTodo.this));
+        databaseTodo.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                todos.clear();
+                for (DataSnapshot produkSnapshot : dataSnapshot.getChildren()) {
+
+                    Todo produk = produkSnapshot.getValue(Todo.class);
+                    todos.add(produk);
+
+                }
+                TodoAdapter todoAdapter = new TodoAdapter(DisplayTodo.this, todos);
+                rvTodo.setAdapter(todoAdapter);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                Log.e(TAG, "eror : .", databaseError.toException());
+
+            }
+        });
+
+        swpRfrsh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                refresh();
+            }
+        });
+    }
+
     }
 }
 
