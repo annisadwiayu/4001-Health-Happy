@@ -12,7 +12,14 @@ public class DetailTodo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_todo);
+        DetailTodo.this.setTitle(getIntent().getStringExtra("judul"));
 
+        jdlDtl = (TextView) findViewById(R.id.titleDetail);
+        descDtl = (TextView) findViewById(R.id.descDetail);
 
+        if (getIntent() != null){
+            jdlDtl.setText(getIntent().getStringExtra("judul"));
+            descDtl.setText(getIntent().getStringExtra("deskripsi"));
+        }
     }
 }
