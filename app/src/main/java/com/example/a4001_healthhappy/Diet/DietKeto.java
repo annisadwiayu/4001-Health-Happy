@@ -20,6 +20,3 @@ public class DietKeto extends AppCompatActivity {
         startActivity(intent);
     }
 }
-
-
-
