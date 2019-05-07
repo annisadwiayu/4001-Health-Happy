@@ -12,6 +12,26 @@
     <string name="workout">Workout</string>
     <string name="diet">Diet</string>
     <string name="logout">Logout</string>
+    <string name="title_activity_nearest_gym">Map</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Diet Keto</string>
+    <string name="slide_1_desc">Pelajari Tentang Diet Keto disini!</string>
+
+    <string name="slide_2_title">Diet Mayo</string>
+    <string name="slide_2_desc">Pelajari Tentang Diet Mayo disini!</string>
+
+    <string name="slide_3_title">Diet OCD</string>
+    <string name="slide_3_desc">Pelajari Tentang Diet OCD disini!</string>
+
+    <string name="slide_4_title">Tips Sehat</string>
+    <string name="slide_4_desc">Pelajari Tips Sehat Ala VIcky Burky!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
 
 
 </resources>
